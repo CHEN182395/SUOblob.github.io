@@ -42,32 +42,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/10/26/hello-world/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>RN问题解决</title>
     <url>/2024/10/13/RN%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>2024.6.14时最新版本为 0.74.2，2024.8.1时最新版本为0.74.4，但其相关依赖不太稳定，尝试使用 0.74.2 版本操作</p>
@@ -198,30 +172,29 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue3组件通信方式</title>
-    <url>/2024/10/19/Vue3%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>组件通信是指在前端开发中，不同组件之间进行数据传递和状态共享的过程。</p>
-<p>在 Vue3 中，组件通p信的方式有多种：</p>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p><a href="#props">Props</a></p>
-</li>
-<li class="lvl-2">
-<p><a href="#emits">emits</a></p>
-</li>
-</ul>
-<h2 id="Props">Props</h2>
-<p>父组件传值给子组件（父传子）</p>
-<p><a href="https://cn.vuejs.org/guide/components/props">官方文档</a></p>
-<h2 id="emits">emits</h2>
-<p>子组件通知父组件触发一个事件，并且可以传值给父组件（子传父）</p>
+    <title>Hello World</title>
+    <url>/2024/10/26/hello-world/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
       <categories>
-        <category>前端</category>
-        <category>Vue3</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>Vue3</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -271,6 +244,33 @@
         <tag>SASS</tag>
         <tag>CSS</tag>
         <tag>HTML</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue3组件通信方式</title>
+    <url>/2024/10/19/Vue3%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E6%96%B9%E5%BC%8F/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>组件通信是指在前端开发中，不同组件之间进行数据传递和状态共享的过程。</p>
+<p>在 Vue3 中，组件通p信的方式有多种：</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><a href="#props">Props</a></p>
+</li>
+<li class="lvl-2">
+<p><a href="#emits">emits</a></p>
+</li>
+</ul>
+<h2 id="Props">Props</h2>
+<p>父组件传值给子组件（父传子）</p>
+<p><a href="https://cn.vuejs.org/guide/components/props">官方文档</a></p>
+<h2 id="emits">emits</h2>
+<p>子组件通知父组件触发一个事件，并且可以传值给父组件（子传父）</p>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>Vue3</category>
+      </categories>
+      <tags>
+        <tag>Vue3</tag>
       </tags>
   </entry>
   <entry>
@@ -426,102 +426,6 @@
       </categories>
       <tags>
         <tag>React Native</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>微信小程序-学习笔记（学习中）</title>
-    <url>/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-图片懒加载没生效问题">1. 图片懒加载没生效问题</h2>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">image</span> <span class="attr">src</span>=<span class="string">&quot;/assets/xxx.png&quot;</span> <span class="attr">mode</span>=<span class="string">&quot;&quot;</span> <span class="attr">show-menu-by-longpress</span> <span class="attr">lazy-load</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png" class="" title="图片懒加载没生效问题">
-<p>lazy-load的图片不是出现在屏幕上才会开始加载，而是提前3个屏幕高度就会加载。所以说三个屏幕高度以内的图片是不会懒加载的，上下三屏即为三个屏幕高度。</p>
-<h2 id="2-text-组件">2. text 组件</h2>
-<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-1.png" class="" title="text 组件">
-<h2 id="3-navigator组件中的-open-type">3. navigator组件中的 open-type</h2>
-<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-2.png" class="" title="navigator中的 open-type">
-<p>注意：</p>
-<blockquote>
-<p>在进行页面跳转时，需要在路径的前面添加 / 斜线，否则跳转不成功<navigator url="/pages/list/list?id=10&num=hue" open-type="navigate">到商品列表页面</navigator></p>
-</blockquote>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p>navigate：只能跳转到非 TabBar 页面，不能跳转到 TabBar 页面，保留上一级页面</p>
-</li>
-<li class="lvl-2">
-<p>redirect：只能跳转到非 TabBar 页面，不能跳转到 TabBar 页面，关闭上一级页面</p>
-</li>
-<li class="lvl-2">
-<p>switchTab：只能跳转到 TabBar 页面，不能跳转到非 TabBar 页面，关闭其他所有的非 TabBar 页面</p>
-</li>
-<li class="lvl-2">
-<p>reLaunch：关闭所有页面，然后打开小程序中某一个页面</p>
-</li>
-<li class="lvl-2">
-<p>navigateBack返回上一页或者返回前几页，默认只能返回上一页</p>
-<ul class="lvl-2">
-<li class="lvl-6">delte：返回的层级，默认是 1，如果想返回几级，就写几</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>微信小程序</category>
-      </categories>
-      <tags>
-        <tag>微信小程序</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深拷贝与浅拷贝</title>
-    <url>/2024/10/24/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul class="lvl-0">
-<li class="lvl-2">
-<p>拷贝就是创建一个已有对象或数据结构的副本的过程，即拷贝是相对于引用类型而言的。</p>
-</li>
-<li class="lvl-2">
-<p>对于 JS 来说，浅拷贝仅复制对象的第一层属性，对于其对象属性，复制的是其存储的地址值。因此，通过浅拷贝得到的副本，修改其内部的对象属性，也会影响原对象。</p>
-</li>
-<li class="lvl-2">
-<p>深拷贝会复制对象的所有属性，包括第一层中的对象属性，即对象属性会在堆区开辟新的空间（新的地址值）,其存储值与被拷贝的内容相同，因此，通过深拷贝得到的副本，修改其内部的对象属性，不会影响原对象。</p>
-</li>
-</ul>
-<span id="more"></span>
-<h2 id="浅拷贝的实现">浅拷贝的实现</h2>
-<ol>
-<li class="lvl-3">
-<p>使用 <code>Object.assign()</code></p>
-<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign">Object.assign()</a> 静态方法将一个或者多个源对象中所有<mark>可枚举的自有属性</mark>复制到目标对象，并返回修改后的目标对象。</p>
-<p><strong>语法</strong></p>
-<blockquote>
-<p>Object.assign(target, …sources)</p>
-</blockquote>
-<ul class="lvl-2">
-<li class="lvl-6">
-<p>target：需要应用源对象属性的目标对象，修改后将作为返回值。</p>
-</li>
-<li class="lvl-6">
-<p>sources：一个或多个包含要应用的属性的源对象。</p>
-</li>
-</ul>
-<p>如果目标对象与源对象具有相同的键（属性名），则目标对象中的属性将被源对象中的属性覆盖，后面的源对象的属性将类似地覆盖前面的源对象的同名属性。</p>
-<p>字符串和 Symbol 类型属性都会被复制。</p>
-<div class="tips">
-<p><code>Object.assign()</code> 不会在源对象值为 null 或 undefined 时抛出错误。</p>
-</div>
- <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a = &#123;<span class="attr">name</span>:<span class="string">&#x27;1&#x27;</span>&#125;</span><br><span class="line"><span class="keyword">let</span> copy = <span class="title class_">Object</span>.<span class="title function_">assign</span>(&#123;&#125;,a)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(copy); <span class="comment">// &#123;name: &#x27;1&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li class="lvl-3">
-<p>使用扩展运算符 <code>...</code></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>前端</category>
-        <category>面经</category>
-        <category>深拷贝与浅拷贝</category>
-      </categories>
-      <tags>
-        <tag>面经</tag>
       </tags>
   </entry>
   <entry>
@@ -725,6 +629,102 @@
         <category>前端</category>
         <category>面经</category>
         <category>类型判断</category>
+      </categories>
+      <tags>
+        <tag>面经</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>微信小程序-学习笔记（学习中）</title>
+    <url>/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="1-图片懒加载没生效问题">1. 图片懒加载没生效问题</h2>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">image</span> <span class="attr">src</span>=<span class="string">&quot;/assets/xxx.png&quot;</span> <span class="attr">mode</span>=<span class="string">&quot;&quot;</span> <span class="attr">show-menu-by-longpress</span> <span class="attr">lazy-load</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image.png" class="" title="图片懒加载没生效问题">
+<p>lazy-load的图片不是出现在屏幕上才会开始加载，而是提前3个屏幕高度就会加载。所以说三个屏幕高度以内的图片是不会懒加载的，上下三屏即为三个屏幕高度。</p>
+<h2 id="2-text-组件">2. text 组件</h2>
+<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-1.png" class="" title="text 组件">
+<h2 id="3-navigator组件中的-open-type">3. navigator组件中的 open-type</h2>
+<img data-src="/2024/10/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/image-2.png" class="" title="navigator中的 open-type">
+<p>注意：</p>
+<blockquote>
+<p>在进行页面跳转时，需要在路径的前面添加 / 斜线，否则跳转不成功<navigator url="/pages/list/list?id=10&num=hue" open-type="navigate">到商品列表页面</navigator></p>
+</blockquote>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>navigate：只能跳转到非 TabBar 页面，不能跳转到 TabBar 页面，保留上一级页面</p>
+</li>
+<li class="lvl-2">
+<p>redirect：只能跳转到非 TabBar 页面，不能跳转到 TabBar 页面，关闭上一级页面</p>
+</li>
+<li class="lvl-2">
+<p>switchTab：只能跳转到 TabBar 页面，不能跳转到非 TabBar 页面，关闭其他所有的非 TabBar 页面</p>
+</li>
+<li class="lvl-2">
+<p>reLaunch：关闭所有页面，然后打开小程序中某一个页面</p>
+</li>
+<li class="lvl-2">
+<p>navigateBack返回上一页或者返回前几页，默认只能返回上一页</p>
+<ul class="lvl-2">
+<li class="lvl-6">delte：返回的层级，默认是 1，如果想返回几级，就写几</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>微信小程序</category>
+      </categories>
+      <tags>
+        <tag>微信小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>深拷贝与浅拷贝</title>
+    <url>/2024/10/24/%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><ul class="lvl-0">
+<li class="lvl-2">
+<p>拷贝就是创建一个已有对象或数据结构的副本的过程，即拷贝是相对于引用类型而言的。</p>
+</li>
+<li class="lvl-2">
+<p>对于 JS 来说，浅拷贝仅复制对象的第一层属性，对于其对象属性，复制的是其存储的地址值。因此，通过浅拷贝得到的副本，修改其内部的对象属性，也会影响原对象。</p>
+</li>
+<li class="lvl-2">
+<p>深拷贝会复制对象的所有属性，包括第一层中的对象属性，即对象属性会在堆区开辟新的空间（新的地址值）,其存储值与被拷贝的内容相同，因此，通过深拷贝得到的副本，修改其内部的对象属性，不会影响原对象。</p>
+</li>
+</ul>
+<span id="more"></span>
+<h2 id="浅拷贝的实现">浅拷贝的实现</h2>
+<ol>
+<li class="lvl-3">
+<p>使用 <code>Object.assign()</code></p>
+<p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign">Object.assign()</a> 静态方法将一个或者多个源对象中所有<mark>可枚举的自有属性</mark>复制到目标对象，并返回修改后的目标对象。</p>
+<p><strong>语法</strong></p>
+<blockquote>
+<p>Object.assign(target, …sources)</p>
+</blockquote>
+<ul class="lvl-2">
+<li class="lvl-6">
+<p>target：需要应用源对象属性的目标对象，修改后将作为返回值。</p>
+</li>
+<li class="lvl-6">
+<p>sources：一个或多个包含要应用的属性的源对象。</p>
+</li>
+</ul>
+<p>如果目标对象与源对象具有相同的键（属性名），则目标对象中的属性将被源对象中的属性覆盖，后面的源对象的属性将类似地覆盖前面的源对象的同名属性。</p>
+<p>字符串和 Symbol 类型属性都会被复制。</p>
+<div class="tips">
+<p><code>Object.assign()</code> 不会在源对象值为 null 或 undefined 时抛出错误。</p>
+</div>
+ <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> a = &#123;<span class="attr">name</span>:<span class="string">&#x27;1&#x27;</span>&#125;</span><br><span class="line"><span class="keyword">let</span> copy = <span class="title class_">Object</span>.<span class="title function_">assign</span>(&#123;&#125;,a)</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(copy); <span class="comment">// &#123;name: &#x27;1&#x27;&#125;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li class="lvl-3">
+<p>使用扩展运算符 <code>...</code></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>前端</category>
+        <category>面经</category>
+        <category>深拷贝与浅拷贝</category>
       </categories>
       <tags>
         <tag>面经</tag>
